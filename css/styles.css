@@ -9,7 +9,12 @@ Universal Styling
 }
 
 img {
-  width: 245px;
+    width: 245px;
+    padding: 0 140px;
+}
+
+h2 {
+  font-size: 45px;
 }
 /*=======================
 Navigation Styling
@@ -40,4 +45,37 @@ nav ul li {
   left: 467px;
   font-size: 24px;
   padding: 10px 0;
+}
+
+/*=======================
+Image Links (Home Page)
+========================*/
+
+.image-links {
+    margin: 50px 10px 50px 150px;
+}
+
+/*=======================
+Featured Reviews
+(Home Page)
+========================*/
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.hallow-ones h2 {
+    font-size: 26px;
+    text-align: left;
+}
+
+.southern-bookclub h2 {
+    font-size: 26px;
+    text-align: left;
+}
+
+.water-dancer h2 {
+    font-size: 26px;
+    text-align: left;
 }
