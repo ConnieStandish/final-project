@@ -13,33 +13,37 @@ Navigation Styling
 ========================*/
 
 h1 {
-  font-size: 65px;
-  font-family: 'Goldman', cursive;
-  text-align: center;
-  padding: 25px;
+    font-size: 65px;
+    font-family: 'Goldman', cursive;
+    text-align: center;
+    color: #0f1635;
+    padding: 25px;
 }
 
 nav ul {
-  border-top: solid;
-  border-bottom: solid;
-  max-width: 80%;
-  padding: 10px;
-  margin: 0 190px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  padding: 0 110px;
+    position: relative;
+    left: 76px;
+    border-top: solid;
+    border-bottom: solid;
+    max-width: 80%;
+    padding: 10px;
+    margin: 0 97px;
 }
 
 nav ul li {
-  display: inline;
-  position: relative;
-  left: 467px;
-  font-family: 'Inter', serif;
-  font-weight: 600;
-  font-size: 24px;
-  padding: 10px 0;
+    display: inline;
+    position: relative;
+    left: 415px;
+    font-family: 'Inter', serif;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #191817;
+    padding: 0 110px;
 }
 
 /*=======================
@@ -49,17 +53,11 @@ footer {
     position: relative;
     top: 247px;
     left: 30px;
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
+    font-size: 35px;
     max-width: 80%;
-    padding: 24px;
+    padding: 20px 155px 12px;
+    word-spacing: 7px;
 }
-
-
-footer p {
-  display: inline;
-}
-
 /*=======================
 Image Links (Home Page)
 ========================*/
@@ -78,10 +76,11 @@ Featured Reviews
 ========================*/
 
 .featured-reviews {
-    font-size: 32px;
+    font-size: 25px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     text-align: center;
+    color: #454545;
     border-bottom: solid;
     border-top: solid;
     max-width: 80%;
@@ -104,9 +103,22 @@ Featured Reviews
 .hallow-ones {
     left: 190px;
     width: 510px;
-    padding: 30px;
-    border-left: solid;
-    border-right: solid;
+    padding: 40px 0 0 0;
+    border-left: solid gray;
+    border-right: solid gray;
+}
+
+.hallow-ones h2,
+.southern-bookclub h2,
+.water-dancer h2 {
+    color: #191817;
+}
+
+.hallow-ones p,
+.southern-bookclub p,
+.water-dancer p {
+    line-height: 35px;
+    color: #000000;
 }
 
 .southern-bookclub {
@@ -119,6 +131,6 @@ Featured Reviews
     width: 500px;
     left: 1214px;
     padding: 30px;
-    border-left: solid;
-    border-right: solid;
+    border-left: solid gray;
+    border-right: solid gray;
 }
