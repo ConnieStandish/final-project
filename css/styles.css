@@ -20,6 +20,11 @@ h1 {
     padding: 25px;
 }
 
+h1 a {
+    text-decoration: none;
+    color: #0f1635;
+}
+
 nav ul {
     position: relative;
     left: 76px;
@@ -47,15 +52,14 @@ nav ul li a {
 }
 
 /*=======================
-Footer
+Social Media Links
 ========================*/
-footer {
-    position: relative;
-    top: 247px;
-    left: 30px;
-    font-size: 35px;
+.social-media {
+    position: absolute;
+    top: 2%;
+    left: 82%;
+    font-size: 30px;
     max-width: 80%;
-    padding: 20px 155px 12px;
     word-spacing: 7px;
 }
 /*=======================
@@ -133,4 +137,37 @@ Featured Reviews
     padding: 30px;
     border-left: solid gray;
     border-right: solid gray;
+}
+
+/*=======================
+About Page
+========================*/
+.container {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    max-width: 45%;
+    margin: 50px 0 0 172px;
+}
+
+.container h2 {
+    font-weight: 500;
+    color: #454545;
+    margin-left: 10px;
+    padding-bottom: 15px;
+    font-size: 26px;
+    border-bottom: solid #8080806b;
+    margin-bottom: 10px;
+}
+
+.container p {
+    padding: 12px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.profile-pic {
+    position: absolute;
+    left: 960px;
+    bottom: 293px;
+    width: 305px;
 }
