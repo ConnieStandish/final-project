@@ -205,3 +205,16 @@ Horror Menu Page
     height: auto;
     filter: grayscale(100);
 }
+
+/*=======================
+Fantasy Menu Page
+========================*/
+.menu-image-fantasy {
+    width: 415px;
+    float: right;
+    margin-top: -140px;
+    margin-right: 85px;
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100);
+}
