@@ -171,3 +171,37 @@ About Page
     bottom: 293px;
     width: 305px;
 }
+
+/*=======================
+Horror Menu Page
+========================*/
+.container ul li {
+    list-style-type: none;
+    margin-left: 11px;
+}
+
+.container li:first-child {
+    margin-top: 25px;;
+}
+
+.container li:nth-child(even) {
+    margin-left: 25px;
+    color: #454545;
+    padding: 15px 0 40px;
+}
+
+.container li:nth-child(odd) {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu-image {
+    width: 415px;
+    float: right;
+    margin-top: -235px;
+    margin-right: 85px;
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100);
+}
