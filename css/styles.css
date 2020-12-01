@@ -284,7 +284,8 @@ Review Pages
 }
 
 .buttons-hallow a,
-.buttons-vampires a {
+.buttons-vampires a,
+.buttons-water a {
     text-decoration: none;
     color: white;
     font-family: 'Inter', sans-serif;
@@ -297,4 +298,27 @@ Review Pages
     width: 315px;
     bottom: 638px;
     right: 195px;
+}
+
+.water_cover {
+  float: right;
+  position: relative;
+  width: 315px;
+  bottom: 310px;
+  right: 195px;
+}
+
+.buttons-water {
+  position: relative;
+  left: 1261px;
+  padding: 13px 10px;
+  top: 203px;
+  box-sizing: border-box;
+  border: solid;
+  min-width: 125px;
+  width: 125px;
+  margin-right: 25px;
+  display: inline;
+  border-radius: 20px;
+  background-color: #142056;
 }
