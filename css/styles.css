@@ -210,9 +210,21 @@ Horror Menu Page
 Fantasy Menu Page
 ========================*/
 .menu-image-fantasy {
-    width: 415px;
+    width: 430px;
     float: right;
-    margin-top: -140px;
+    margin-top: -132px;
+    margin-right: 85px;
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100);
+}
+/*=======================
+Science Fiction Menu Page
+========================*/
+.menu-image-syfy {
+    width: 445px;
+    float: right;
+    margin-top: -322px;
     margin-right: 85px;
     max-width: 100%;
     height: auto;
