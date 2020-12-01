@@ -125,6 +125,12 @@ Featured Reviews
     color: #000000;
 }
 
+.southern-bookclub a,
+.hallow-ones a,
+.water-dancer a {
+    text-decoration: none;
+}
+
 .southern-bookclub {
     width: 450px;
     left: 746px;
