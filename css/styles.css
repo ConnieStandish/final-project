@@ -245,7 +245,7 @@ Review Pages
     margin-top: -11px;
 }
 
-.book_covers {
+.hallow_cover {
     float: right;
     position: absolute;
     bottom: 170px;
@@ -253,7 +253,7 @@ Review Pages
     right: 215px;
 }
 
-.buttons {
+.buttons-hallow {
     position: relative;
     left: 1264px;
     padding: 13px 10px;
@@ -268,9 +268,33 @@ Review Pages
     background-color: #142056;
 }
 
-.buttons a {
+.buttons-vampires {
+    position: relative;
+    left: 1261px;
+    padding: 13px 10px;
+    top: -120px;
+    box-sizing: border-box;
+    border: solid;
+    min-width: 125px;
+    width: 125px;
+    margin-right: 25px;
+    display: inline;
+    border-radius: 20px;
+    background-color: #142056;
+}
+
+.buttons-hallow a,
+.buttons-vampires a {
     text-decoration: none;
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+}
+
+.vampire_cover {
+    float: right;
+    position: relative;
+    width: 315px;
+    bottom: 638px;
+    right: 195px;
 }
