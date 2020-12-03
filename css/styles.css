@@ -62,6 +62,11 @@ Social Media Links
     max-width: 80%;
     word-spacing: 7px;
 }
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+}
 /*=======================
 Image Links (Home Page)
 ========================*/
