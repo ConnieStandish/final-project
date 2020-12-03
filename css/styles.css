@@ -179,7 +179,7 @@ About Page
 }
 
 /*=======================
-Horror Menu Page
+Menu Pages
 ========================*/
 .container ul li {
     list-style-type: none;
@@ -208,38 +208,18 @@ Horror Menu Page
 }
 
 .menu-image {
-    width: 415px;
-    float: right;
-    margin-top: -235px;
-    margin-right: 85px;
+    position: absolute;
     max-width: 100%;
     height: auto;
     filter: grayscale(100);
+    right: 100px;
+    bottom: 50px;
 }
 
-/*=======================
-Fantasy Menu Page
-========================*/
-.menu-image-fantasy {
-    width: 450px;
-    float: right;
-    margin-top: -364px;
-    margin-right: 53px;
-    max-width: 100%;
-    height: auto;
-    filter: grayscale(100);
-}
-/*=======================
-Science Fiction Menu Page
-========================*/
-.menu-image-syfy {
-    width: 445px;
-    float: right;
-    margin-top: -322px;
-    margin-right: 85px;
-    max-width: 100%;
-    height: auto;
-    filter: grayscale(100);
+.menu-image-horror,
+.menu-image-fantasy,
+.menu-image-syfy  {
+  width: 425px;
 }
 
 /*=======================
