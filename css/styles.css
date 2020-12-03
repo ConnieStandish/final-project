@@ -216,10 +216,10 @@ Horror Menu Page
 Fantasy Menu Page
 ========================*/
 .menu-image-fantasy {
-    width: 430px;
+    width: 450px;
     float: right;
-    margin-top: -132px;
-    margin-right: 85px;
+    margin-top: -364px;
+    margin-right: 53px;
     max-width: 100%;
     height: auto;
     filter: grayscale(100);
@@ -281,6 +281,8 @@ Review Pages
 }
 .water_dancer_cover,
 .hallow_ones_cover,
-.vampires_cover {
+.vampires_cover,
+.trail-of-lightning,
+.nimona-cover {
   width: 300px;
 }
