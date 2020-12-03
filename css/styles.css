@@ -251,80 +251,36 @@ Review Pages
     margin-top: -11px;
 }
 
-.hallow_cover {
-    float: right;
+.buttons {
     position: absolute;
-    bottom: 170px;
-    width: 305px;
-    right: 215px;
+    bottom: -2%;
+    left: -71px;
 }
 
-.buttons-hallow {
-    position: relative;
-    left: 1264px;
-    padding: 13px 10px;
-    top: 24px;
-    box-sizing: border-box;
-    border: solid;
-    min-width: 125px;
-    width: 125px;
-    margin-right: 25px;
-    display: inline;
-    border-radius: 20px;
-    background-color: #142056;
-}
-
-.buttons-vampires {
-    position: relative;
-    left: 1261px;
-    padding: 13px 10px;
-    top: -120px;
-    box-sizing: border-box;
-    border: solid;
-    min-width: 125px;
-    width: 125px;
-    margin-right: 25px;
-    display: inline;
-    border-radius: 20px;
-    background-color: #142056;
-}
-
-.buttons-hallow a,
-.buttons-vampires a,
-.buttons-water a {
+.amazon-button,
+.worldcat-button {
     text-decoration: none;
-    color: white;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-}
-
-.vampire_cover {
-    float: right;
+    padding: 10px;
+    width: auto;
     position: relative;
-    width: 315px;
-    bottom: 638px;
-    right: 195px;
+    left: 1314px;
+    margin-left: 37px;
+    top: -150px;
+    border-radius: 15px;
+    background-color: #142056;
+    color: white;
+    font-weight: bold;
 }
 
-.water_cover {
-  float: right;
-  position: relative;
-  width: 315px;
-  bottom: 310px;
-  right: 195px;
+.review-cover {
+    position: absolute;
+    left: 60%;
+    bottom: 18%;
 }
-
-.buttons-water {
-  position: relative;
-  left: 1261px;
-  padding: 13px 10px;
-  top: 203px;
-  box-sizing: border-box;
-  border: solid;
-  min-width: 125px;
-  width: 125px;
-  margin-right: 25px;
-  display: inline;
-  border-radius: 20px;
-  background-color: #142056;
+.water_dancer_cover,
+.hallow_ones_cover,
+.vampires_cover {
+  width: 300px;
 }
