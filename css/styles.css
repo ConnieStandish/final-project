@@ -145,6 +145,7 @@ Featured Reviews
 .water-dancer {
     width: 500px;
     left: 1214px;
+    margin-left: 15px;
     padding: 30px;
     border-left: solid gray;
     border-right: solid gray;
@@ -178,9 +179,9 @@ About Page
 
 .profile-pic {
     position: absolute;
-    left: 960px;
-    bottom: 293px;
-    width: 305px;
+    left: 1075px;
+    bottom: 276px;
+    width: 315px;
 }
 
 /*=======================
