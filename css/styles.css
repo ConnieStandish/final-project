@@ -320,3 +320,20 @@ textarea {
   font-size: 14px;
   padding: 10px 10px;
 }
+
+.submit,
+.reset {
+  display: inline;
+}
+
+.submit input,
+.reset input {
+    background: #142056;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
