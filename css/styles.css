@@ -50,6 +50,17 @@ nav ul li a {
     color: #191817;
     padding: 0 110px;
 }
+/*=======================
+Social Media Links
+========================*/
+footer {
+    text-align: center;
+    margin-top: 293px;
+    font-family: 'Inter', sans-serif;
+    padding-top: -9px;
+    padding-bottom: 35px;
+    font-size: 14px;
+}
 
 /*=======================
 Social Media Links
