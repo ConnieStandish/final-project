@@ -277,3 +277,46 @@ Review Pages
 .nimona-cover {
   width: 300px;
 }
+
+/*=======================
+Contact Page
+========================*/
+.emailsection {
+    max-width: 936px;
+    padding: 32px 5px;
+}
+
+.emailform {
+  margin: 50px 300px
+}
+
+.label_input_wrap {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.emailform input,
+.emailform textarea {
+    border: 1px solid black;
+    padding: 9px 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.emailme {
+    max-width: 500px;
+    margin: 50px 297px -25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.input-section {
+    padding-bottom: 14px;
+}
+
+textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+}
