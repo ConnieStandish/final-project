@@ -1,165 +1,201 @@
 /*=======================
 Universal Styling
 ========================*/
-
 * {
   margin: 0;
   padding: 0;
   border: 0;
 }
-
 /*=======================
 Navigation Styling
 ========================*/
-
 h1 {
-    font-size: 65px;
-    font-family: 'Goldman', cursive;
-    text-align: center;
-    color: #0f1635;
-    padding: 25px;
+  font-size: 65px;
+  font-family: 'Goldman', cursive;
+  text-align: center;
+  color: #0f1635;
+  padding: 25px;
+  text-shadow: 2px 1px lightslategrey;
 }
 
 h1 a {
-    text-decoration: none;
-    color: #0f1635;
+  text-decoration: none;
+  color: #0f1635;
 }
 
 nav ul {
-    position: relative;
-    left: 76px;
-    border-top: solid;
-    border-bottom: solid;
-    max-width: 80%;
-    padding: 10px;
-    margin: 0 97px;
+  position: relative;
+  left: 76px;
+  border-top: 2px solid #454545;;
+  border-bottom: 2px solid #454545;;
+  max-width: 80%;
+  padding: 10px;
+  margin: 0 97px;
 }
 
 nav ul li {
-    display: inline;
-    position: relative;
-    left: 415px;
-    font-family: 'Inter', serif;
-    font-weight: 600;
-    font-size: 28px;
-    padding: 10px 20px;
+  display: inline;
+  position: relative;
+  left: 415px;
+  font-family: 'Inter', serif;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 10px 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #191817;
-    padding: 0 110px;
-}
-/*=======================
-Social Media Links
-========================*/
-footer {
-    text-align: center;
-    margin-top: 293px;
-    font-family: 'Inter', sans-serif;
-    padding-top: -9px;
-    padding-bottom: 35px;
-    font-size: 14px;
+  text-decoration: none;
+  color: #191817;
+  padding: 0 110px;
+  transition: .3s;
 }
 
+nav ul li a:hover {
+  color: #4f4e4e;
+  transition: .3s;
+}
 /*=======================
 Social Media Links
 ========================*/
 .social-media {
-    position: absolute;
-    top: 2%;
-    left: 82%;
-    font-size: 30px;
-    max-width: 80%;
-    word-spacing: 7px;
+  position: absolute;
+  top: 2%;
+  left: 82%;
+  font-size: 30px;
+  max-width: 80%;
+  word-spacing: 7px;
 }
 
 .social-media a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+}
+
+.social-media a:visited {
+  color: #093eb1;
+}
+/*=======================
+Footer
+========================*/
+footer {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  padding-top: 295px;
+  font-size: 14px;
+  color: white;
+}
+
+footer p {
+  background: #0f1635;
+  padding: 14px 0;
 }
 /*=======================
 Image Links (Home Page)
 ========================*/
-img {
-    width: 245px;
-    padding: 0 140px;
-}
-
 .image-links {
-    margin: 50px 10px 50px 150px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px 15px;
 }
 
+.link {
+  position: relative;
+  transition: .4s
+}
+
+.link:hover {
+  opacity: 0.5;
+  transition: .4s;
+}
+
+.syfy {
+  left: -210px;
+  bottom: 22px;
+}
+
+.fantasy {
+  left: 50px;
+}
+
+.horror {
+  left: 310px;
+}
 /*=======================
 Featured Reviews
 (Home Page)
 ========================*/
-
-.featured-reviews {
-    font-size: 25px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    color: #454545;
-    border-bottom: solid;
-    border-top: solid;
-    max-width: 80%;
-    margin: 0 190px;
-    padding: 10px;
+.featured-reviews-section h2 {
+  font-size: 25px;
+  color: #191817;
+  font-weight: 500;
 }
 
-.hallow-ones,
-.southern-bookclub,
-.water-dancer {
-    box-sizing: border-box;
-    height: 170px;
-    font-size: 18px;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    position: absolute;
-    top: 710px;
-}
-
-.hallow-ones {
-    left: 190px;
-    width: 510px;
-    padding: 40px 0 0 0;
-    border-left: solid gray;
-    border-right: solid gray;
-}
-
-.hallow-ones h2,
-.southern-bookclub h2,
-.water-dancer h2 {
-    color: #191817;
-}
-
-.hallow-ones p,
-.southern-bookclub p,
-.water-dancer p {
-    line-height: 35px;
-    color: #000000;
+.featured-reviews-section p {
+  font-size: 18px;
+  color: #454545;
+  line-height: 35px;
 }
 
 .southern-bookclub a,
 .hallow-ones a,
 .water-dancer a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.featured-reviews {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 2px solid #454545;
+  border-top: 2px solid #454545;
+  max-width: 80%;
+  margin: 9px 190px;
+  padding: 10px;
+}
+
+.review-link {
+  margin-top: -64px;
+  transition: .3s;
+}
+
+.review-link h2:hover {
+  color: #4f4e4e;
+  transition: .3s
+}
+
+.hallow-ones,
+.southern-bookclub,
+.water-dancer {
+  box-sizing: border-box;
+  height: 170px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 710px;
+}
+
+.hallow-ones {
+  left: 190px;
+  width: 510px;
+  padding: 35px 0 0 0;
+  border-left: 2px solid #454545;
+  border-right: 2px solid #454545;
 }
 
 .southern-bookclub {
-    width: 450px;
-    left: 746px;
-    padding: 30px;
+  width: 450px;
+  left: 746px;
+  padding: 30px;
 }
 
 .water-dancer {
-    width: 500px;
-    left: 1214px;
-    margin-left: 15px;
-    padding: 30px;
-    border-left: solid gray;
-    border-right: solid gray;
+  width: 500px;
+  left: 1214px;
+  margin-left: 15px;
+  padding: 30px;
+  border-left: 2px solid #454545;
+  border-right: 2px solid #454545;
 }
 
 /*=======================
