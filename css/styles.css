@@ -78,17 +78,22 @@ Social Media Links
 Footer
 ========================*/
 footer {
-  text-align: center;
   font-family: 'Inter', sans-serif;
   margin: 0 auto;
   padding-top: 295px;
   font-size: 14px;
   color: white;
+  position: relative;
 }
 
 footer p {
-  background: #0f1635;
-  padding: 14px 0;
+    background: #0f1635;
+    padding: 19px 0;
+    text-align: center;
+    position: absolute;
+    width: 1918px;
+    max-width: 1920px;
+    height: 15px;
 }
 /*=======================
 Image Links (Home Page)
@@ -205,32 +210,32 @@ About Page
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     max-width: 45%;
-    margin: 50px 0 0 172px;
+    margin: 80px 0 0 172px;
 }
 
 .container h2 {
     font-weight: 500;
     color: #454545;
-    margin-left: 10px;
+    margin-left: 20px;
     padding-bottom: 15px;
     font-size: 26px;
-    border-bottom: solid #8080806b;
+    border-bottom: 2px solid #454545;
     margin-bottom: 10px;
 }
 
 .container p {
     padding: 12px;
-    line-height: 22px;
+    line-height: 25px;
+    margin-left: 10px;
     color: #000000;
 }
 
 .profile-pic {
-    position: absolute;
-    left: 1075px;
-    bottom: 276px;
-    width: 315px;
+    position: relative;
+    float: right;
+    margin-right: 300px;
+    bottom: 400px;
 }
-
 /*=======================
 Menu Pages
 ========================*/
