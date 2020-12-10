@@ -323,6 +323,19 @@ Review Pages
     left: 1123px;
 }
 
+.bookclub {
+    bottom: 650px;
+    left: 1123px;
+}
+
+.trail {
+    margin-top: 130px;
+}
+
+.nimona {
+    margin-top: 200px;
+}
+
 .buttons {
     float: right;
     position: relative;
@@ -353,6 +366,14 @@ Review Pages
 .worldcat-button:hover {
   background: #093eb1;
   transition: .3s;
+}
+
+.vampire-buttons {
+    margin-top: -155px;
+}
+
+.lightning-buttons {
+  margin-top: -5px;
 }
 
 /*=======================
