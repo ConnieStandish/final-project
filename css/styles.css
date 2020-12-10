@@ -219,12 +219,10 @@ About Page
   font-size: 26px;
 }
 
-.container h2:after {
-  content: "";
-  display: block;
-  width: 65%;
-  padding-top: 20px;
-  border-bottom: 2px solid #454545;
+.container h3 {
+  color: #454545;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .container p {
@@ -233,6 +231,16 @@ About Page
   margin-left: 10px;
   color: #000000;
 }
+
+.aboutheader:after {
+  content: "";
+  display: block;
+  width: 65%;
+  padding-top: 20px;
+  border-bottom: 2px solid #454545;
+}
+
+
 
 .profile-pic {
   position: relative;
@@ -245,6 +253,14 @@ Menu Pages
 ========================*/
 .menuheader {
     margin-left: 150px;
+}
+
+.menuheader:after {
+  content: "";
+  display: block;
+  width: 65%;
+  padding-top: 20px;
+  border-bottom: 2px solid #454545;
 }
 
 .container ul {
@@ -291,15 +307,12 @@ Menu Pages
 /*=======================
 Review Pages
 ========================*/
-.review-headers h2 {
-    border: none;
-}
-
-.review-headers h2:nth-child(2) {
-    color: #454545;
-    border-bottom: solid #8080806b;
-    font-size: 21px;
-    margin-top: -11px;
+.author:after {
+  content: "";
+  display: block;
+  width: 65%;
+  padding-top: 20px;
+  border-bottom: 2px solid #454545;
 }
 
 .buttons {
