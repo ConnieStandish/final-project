@@ -336,6 +336,13 @@ Review Pages
     margin-top: 200px;
 }
 
+.destroyer,
+.rogue,
+.something,
+.upright {
+    margin-top: 220px;
+}
+
 .buttons {
     float: right;
     position: relative;
