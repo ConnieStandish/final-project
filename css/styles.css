@@ -240,8 +240,6 @@ About Page
   border-bottom: 2px solid #454545;
 }
 
-
-
 .profile-pic {
   position: relative;
   float: right;
@@ -315,10 +313,21 @@ Review Pages
   border-bottom: 2px solid #454545;
 }
 
+.title {
+    padding-bottom: 10px;
+}
+
+.book-cover {
+    position: relative;
+    bottom: 490px;
+    left: 1123px;
+}
+
 .buttons {
-    position: absolute;
-    bottom: -2%;
-    left: -71px;
+    float: right;
+    position: relative;
+    right: 301px;
+    bottom: 450px;
 }
 
 .amazon-button,
@@ -328,27 +337,22 @@ Review Pages
     font-size: 16px;
     padding: 10px;
     width: auto;
-    position: relative;
-    left: 1314px;
     margin-left: 37px;
-    top: -150px;
     border-radius: 15px;
     background-color: #142056;
     color: white;
     font-weight: bold;
+    transition: .3s;
 }
 
-.review-cover {
-    position: absolute;
-    left: 60%;
-    bottom: 18%;
+.amazon-button:hover {
+  background: #093eb1;
+  transition: .3s;
 }
-.water_dancer_cover,
-.hallow_ones_cover,
-.vampires_cover,
-.trail-of-lightning,
-.nimona-cover {
-  width: 300px;
+
+.worldcat-button:hover {
+  background: #093eb1;
+  transition: .3s;
 }
 
 /*=======================
