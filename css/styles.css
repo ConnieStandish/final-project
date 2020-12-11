@@ -86,13 +86,13 @@ footer {
 }
 
 footer p {
-    background: #0f1635;
-    padding: 19px 0;
-    text-align: center;
-    position: absolute;
-    width: 1918px;
-    max-width: 1920px;
-    height: 15px;
+  background: #0f1635;
+  padding: 19px 0;
+  text-align: center;
+  position: absolute;
+  width: 1918px;
+  max-width: 1920px;
+  height: 15px;
 }
 /*=======================
 Image Links (Home Page)
@@ -180,12 +180,12 @@ Featured Reviews
 }
 
 .hallow-ones {
-    left: 190px;
-    width: 510px;
-    padding: 35px;
-    border-left: 2px solid #454545;
-    border-right: 2px solid #454545;
-    margin: -60px 2px;
+  left: 190px;
+  width: 510px;
+  padding: 35px;
+  border-left: 2px solid #454545;
+  border-right: 2px solid #454545;
+  margin: -60px 2px;
 }
 
 .southern-bookclub {
@@ -195,12 +195,12 @@ Featured Reviews
 }
 
 .water-dancer {
-    width: 500px;
-    left: 1214px;
-    margin: -60px -1px;
-    padding: 35px;
-    border-left: 2px solid #454545;
-    border-right: 2px solid #454545;
+  width: 500px;
+  left: 1214px;
+  margin: -60px -1px;
+  padding: 35px;
+  border-left: 2px solid #454545;
+  border-right: 2px solid #454545;
 }
 
 /*=======================
@@ -250,7 +250,7 @@ About Page
 Menu Pages
 ========================*/
 .menuheader {
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 .menuheader:after {
@@ -262,44 +262,44 @@ Menu Pages
 }
 
 .container ul {
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 .container ul li {
-    list-style-type: none;
-    margin-left: 11px;
+  list-style-type: none;
+  margin-left: 11px;
 }
 
 .container li:first-child {
-    margin-top: 25px;;
+  margin-top: 25px;;
 }
 
 .container li:nth-child(even) {
-    margin-left: 25px;
-    color: #454545;
-    padding: 15px 0 40px;
+  margin-left: 25px;
+  color: #454545;
+  padding: 15px 0 40px;
 }
 
 .container li:nth-child(odd) {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .container a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .menu-image {
-    position: absolute;
-    max-width: 100%;
-    height: auto;
-    filter: grayscale(100);
-    right: 188px;
-    bottom: 48px;
-    border-radius: 15px;
-    box-shadow: 9px -7px 7px 3px #8080808c;
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100);
+  right: 188px;
+  bottom: 48px;
+  border-radius: 15px;
+  box-shadow: 9px -7px 7px 3px #8080808c;
 }
 
 /*=======================
@@ -314,55 +314,55 @@ Review Pages
 }
 
 .title {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .book-cover {
-    position: relative;
-    bottom: 490px;
-    left: 1123px;
+  position: relative;
+  bottom: 490px;
+  left: 1123px;
 }
 
 .bookclub {
-    bottom: 650px;
-    left: 1123px;
+  bottom: 650px;
+  left: 1123px;
 }
 
 .trail {
-    margin-top: 130px;
+  margin-top: 130px;
 }
 
 .nimona {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .destroyer,
 .rogue,
 .something,
 .upright {
-    margin-top: 220px;
+  margin-top: 220px;
 }
 
 .buttons {
-    float: right;
-    position: relative;
-    right: 301px;
-    bottom: 450px;
+  float: right;
+  position: relative;
+  right: 301px;
+  bottom: 450px;
 }
 
 .amazon-button,
 .worldcat-button {
-    text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    padding: 10px;
-    width: auto;
-    margin-left: 37px;
-    border-radius: 15px;
-    background-color: #142056;
-    color: white;
-    font-weight: bold;
-    transition: .3s;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  width: auto;
+  margin-left: 37px;
+  border-radius: 15px;
+  background-color: #142056;
+  color: white;
+  font-weight: bold;
+  transition: .3s;
 }
 
 .amazon-button:hover {
@@ -376,7 +376,7 @@ Review Pages
 }
 
 .vampire-buttons {
-    margin-top: -155px;
+  margin-top: -155px;
 }
 
 .lightning-buttons {
@@ -387,8 +387,8 @@ Review Pages
 Contact Page
 ========================*/
 .emailsection {
-    max-width: 936px;
-    padding: 55px 5px;
+  max-width: 936px;
+  padding: 55px 5px;
 }
 
 .emailform {
@@ -403,22 +403,22 @@ Contact Page
 
 .emailform input,
 .emailform textarea {
-    border: 1px solid black;
-    padding: 9px 12px;
-    font-family: 'Inter', sans-serif;
+  border: 1px solid black;
+  padding: 9px 12px;
+  font-family: 'Inter', sans-serif;
 }
 
 .emailme {
-    max-width: 500px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    margin-left: 32%;
-    margin-bottom: -23px;
+  max-width: 500px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin-left: 32%;
+  margin-bottom: -23px;
 }
 
 .input-section {
-    padding-bottom: 14px;
+  padding-bottom: 14px;
 }
 
 textarea {
@@ -434,16 +434,16 @@ textarea {
 
 .submit input,
 .reset input {
-    background: #142056;
-    border: none;
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-    margin-right: 20px;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 5px 10px;
-    transition: .3s;
+  background: #142056;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: .3s;
 }
 
 .submit input:hover {
@@ -457,12 +457,12 @@ textarea {
 }
 
 .followsection {
-    max-width: 538px;
-    height: 375px;
-    margin-top: -30%;
-    margin-left: 56%;
-    background: #f2f2f2;
-    padding: 20px 20px;
+  max-width: 538px;
+  height: 375px;
+  margin-top: -30%;
+  margin-left: 56%;
+  background: #f2f2f2;
+  padding: 20px 20px;
 }
 
 .followme {
@@ -473,26 +473,26 @@ textarea {
 }
 
 .followsection ul li {
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    line-height: 75px;
-    list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 75px;
+  list-style: none;
 }
 
 .listimages {
-    max-height: 350px;
-    width: 100px;
-    position: relative;
-    right: 10px;
-    top: 28px;
+  max-height: 350px;
+  width: 100px;
+  position: relative;
+  right: 10px;
+  top: 28px;
 }
 
 .listimages img {
-    width: 50px;
-    padding-bottom: 20px;
+  width: 50px;
+  padding-bottom: 20px;
 }
 
 .followsection ul {
-    margin-top: -279px;
-    margin-left: 56px;
+  margin-top: -279px;
+  margin-left: 56px;
 }
