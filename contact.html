@@ -28,18 +28,18 @@
 
     <section class="emailsection">
       <h3 class="emailme">Email Me</h3>
-      <form class="emailform" method="POST" action="">
+      <form class="emailform" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
         <div class="first-name input-section">
           <label for="firstname" class="label_input_wrap">First Name:</label>
-          <input type="text" name="firstname" id="firstname" placeholder="Joe" />
+          <input type="text" name="req_firstname" id="firstname" placeholder="Joe" />
         </div>
         <div class="last-name input-section">
           <label for="lastname" class="label_input_wrap">Last Name:</label>
-          <input type="text" name="lastname" id="lastname" placeholder="Smith" />
+          <input type="text" name="req_lastname" id="lastname" placeholder="Smith" />
         </div>
         <div class="email input-section">
           <label for="email" class="label_input_wrap">Email:</label>
-          <input type="email" name="email" id="email" placeholder="jsmith@example.com" />
+          <input type="email" name="req_email" id="email" placeholder="jsmith@example.com" />
         </div>
         <div class="comments input-section">
           <label for="comments" class="label_input_wrap">Comments, Questions, & Recommendations:</label>
@@ -81,6 +81,6 @@
     <footer>
       <p>Website Created By: Connie Standish | University of Florida</p>
     </footer>
-    
+
   </body>
 </html>
