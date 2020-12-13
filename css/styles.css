@@ -241,10 +241,18 @@ About Page
 }
 
 .profile-pic {
-  position: relative;
-  float: right;
-  margin-right: 300px;
-  bottom: 400px;
+    position: relative;
+    float: right;
+    left: 450px;
+    bottom: 346px;
+}
+
+.profile-pic-caption {
+    clear: both;
+    position: relative;
+    bottom: 338px;
+    left: 1167px;
+    font-size: 15px;
 }
 /*=======================
 Menu Pages
