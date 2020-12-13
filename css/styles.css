@@ -209,7 +209,7 @@ About Page
 .container {
   font-size: 16px;
   font-family: 'Inter', sans-serif;
-  max-width: 50%;
+  max-width: 53%;
   margin: 80px 0 0 172px;
 }
 
@@ -318,35 +318,35 @@ Review Pages
 }
 
 .book-cover {
-  position: relative;
-  bottom: 490px;
-  left: 1123px;
+    position: relative;
+    bottom: 490px;
+    left: 1198px;
+    width: 300px;
+    height: 455px;
+    object-fit: cover;
+    margin-top: 200px;
 }
 
-.bookclub {
-  bottom: 650px;
-  left: 1123px;
+.hallow-cover {
+    margin-top: 0;
 }
 
-.trail {
-  margin-top: 130px;
+.vampire-cover {
+    margin-top: -65px;
 }
 
-.nimona {
-  margin-top: 200px;
+.water-cover {
+    margin-top: 60px;
 }
 
-.destroyer,
-.rogue,
-.something,
-.upright {
-  margin-top: 220px;
+.trail-cover {
+    margin-top: 155px;
 }
 
 .buttons {
   float: right;
   position: relative;
-  right: 301px;
+  right: 227px;
   bottom: 450px;
 }
 
@@ -374,15 +374,6 @@ Review Pages
   background: #093eb1;
   transition: .3s;
 }
-
-.vampire-buttons {
-  margin-top: -155px;
-}
-
-.lightning-buttons {
-  margin-top: -5px;
-}
-
 /*=======================
 Contact Page
 ========================*/
