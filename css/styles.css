@@ -351,6 +351,14 @@ Review Pages
     margin-top: 155px;
 }
 
+.lb-data .lb-details {
+    width: 85%;
+    float: left;
+    text-align: left;
+    line-height: 1.1em;
+    font-family: 'Inter', sans-serif;
+}
+
 .buttons {
   float: right;
   position: relative;
