@@ -92,6 +92,49 @@ footer p {
  max-width: 1920px;
  height: 15px;
 }
+
+.container {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  max-width: 53%;
+  margin: 80px 0 0 172px;
+}
+
+.contact {
+  height: 239px;
+}
+
+.thankyou {
+  color: #454545;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.thankyou:after {
+  content: "";
+  display: block;
+  width: 65%;
+  padding-top: 20px;
+  border-bottom: 2px solid #454545;
+}
+
+.container p {
+  padding: 12px;
+  line-height: 25px;
+  margin-left: 10px;
+  color: #000000;
+}
+
+strong a {
+    position: absolute;
+    bottom: 68px;
+    text-decoration: none;
+    background: #142056;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
 </style>
 
 <!--- FontAwesome --->
@@ -120,8 +163,8 @@ footer p {
     <a href="https://www.goodreads.com/"><i class="fab fa-goodreads"></i></a>
   </section>
 
-<div class="container">
-	<h1>Missing fields</h1>
+<div class="container contact">
+	<h2 class="thankyou">Missing fields</h2>
 	<p>Sorry, you have not completed all of the required fields.</p>
 	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
 </div>
