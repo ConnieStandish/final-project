@@ -149,8 +149,8 @@ Featured Reviews
 .southern-bookclub a,
 .hallow-ones a,
 .water-dancer a {
-    text-decoration: none;
-    color: #191817;
+  text-decoration: none;
+  color: #191817;
 }
 
 .featured-reviews {
@@ -170,8 +170,8 @@ Featured Reviews
 }
 
 .review-link a:hover {
-    color: #4f4e4e;
-    transition: .3s;
+  color: #4f4e4e;
+  transition: .3s;
 }
 
 .hallow-ones,
@@ -208,7 +208,6 @@ Featured Reviews
   border-left: 2px solid #454545;
   border-right: 2px solid #454545;
 }
-
 /*=======================
 About Page
 ========================*/
@@ -247,18 +246,18 @@ About Page
 }
 
 .profile-pic {
-    position: relative;
-    float: right;
-    left: 450px;
-    bottom: 346px;
+  position: relative;
+  float: right;
+  left: 450px;
+  bottom: 346px;
 }
 
 .profile-pic-caption {
-    clear: both;
-    position: relative;
-    bottom: 338px;
-    left: 1167px;
-    font-size: 15px;
+  clear: both;
+  position: relative;
+  bottom: 338px;
+  left: 1167px;
+  font-size: 15px;
 }
 /*=======================
 Menu Pages
@@ -315,7 +314,6 @@ Menu Pages
   border-radius: 15px;
   box-shadow: 9px -7px 7px 3px #8080808c;
 }
-
 /*=======================
 Review Pages
 ========================*/
@@ -332,37 +330,37 @@ Review Pages
 }
 
 .book-cover {
-    position: relative;
-    bottom: 490px;
-    left: 1198px;
-    width: 300px;
-    height: 455px;
-    object-fit: cover;
-    margin-top: 200px;
+  position: relative;
+  bottom: 490px;
+  left: 1198px;
+  width: 300px;
+  height: 455px;
+  object-fit: cover;
+  margin-top: 200px;
 }
 
 .hallow-cover {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .vampire-cover {
-    margin-top: -65px;
+  margin-top: -65px;
 }
 
 .water-cover {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .trail-cover {
-    margin-top: 155px;
+  margin-top: 155px;
 }
 
 .lb-data .lb-details {
-    width: 85%;
-    float: left;
-    text-align: left;
-    line-height: 1.1em;
-    font-family: 'Inter', sans-serif;
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+  font-family: 'Inter', sans-serif;
 }
 
 .buttons {
