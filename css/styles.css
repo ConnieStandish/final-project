@@ -135,6 +135,11 @@ Featured Reviews
   font-weight: 500;
 }
 
+.featured-reviews-section h3 {
+  font-size: 23px;
+  font-weight: 500;
+}
+
 .featured-reviews-section p {
   font-size: 18px;
   color: #454545;
@@ -144,7 +149,8 @@ Featured Reviews
 .southern-bookclub a,
 .hallow-ones a,
 .water-dancer a {
-  text-decoration: none;
+    text-decoration: none;
+    color: #191817;
 }
 
 .featured-reviews {
@@ -163,9 +169,9 @@ Featured Reviews
   transition: .3s;
 }
 
-.review-link h2:hover {
-  color: #4f4e4e;
-  transition: .3s
+.review-link a:hover {
+    color: #4f4e4e;
+    transition: .3s;
 }
 
 .hallow-ones,
