@@ -531,7 +531,10 @@ textarea {
 .listimages img {
     width: 60px;
     padding-bottom: 20px;
-    transition: .4s;
+}
+
+.listimages a {
+  transition: .4s;
 }
 
 .listimages a:hover {
