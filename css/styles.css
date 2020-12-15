@@ -305,6 +305,12 @@ Menu Pages
 .container a {
   text-decoration: none;
   color: black;
+  transition: .3s;
+}
+
+.container a:hover {
+  color: #4f4e4e;
+  transition: .3s;
 }
 
 .menu-image {
