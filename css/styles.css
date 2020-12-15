@@ -330,29 +330,37 @@ Review Pages
 }
 
 .book-cover {
+  float: right;
   position: relative;
-  bottom: 490px;
-  left: 1198px;
+  bottom: 330px;
+  left: 460px;
   width: 300px;
   height: 455px;
   object-fit: cover;
-  margin-top: 200px;
 }
 
 .hallow-cover {
-  margin-top: 0;
+    margin-top: -153px;
 }
 
 .vampire-cover {
-  margin-top: -65px;
+    margin-top: -220px;
 }
 
 .water-cover {
-  margin-top: 60px;
+    margin-top: -92px;
 }
 
-.trail-cover {
-  margin-top: 155px;
+.destroyer-cover {
+    margin-top: -120px;
+}
+
+.nimona-cover {
+    margin-top: -125px;
+}
+
+.something-cover {
+    margin-top: -75px;
 }
 
 .lb-data .lb-details {
@@ -364,10 +372,10 @@ Review Pages
 }
 
 .buttons {
-  float: right;
+  clear: both;
   position: relative;
-  right: 227px;
-  bottom: 450px;
+  bottom: 298px;
+  left: 1301px;
 }
 
 .amazon-button,
