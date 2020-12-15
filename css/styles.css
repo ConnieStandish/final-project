@@ -435,9 +435,17 @@ Contact Page
   max-width: 500px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 24px;
   margin-left: 32%;
   margin-bottom: -23px;
+}
+
+.emailme:after {
+    content: "";
+    display: block;
+    width: 80%;
+    padding-top: 10px;
+    border-bottom: 2px solid #454545;
 }
 
 .input-section {
@@ -482,10 +490,11 @@ textarea {
 .followsection {
   max-width: 538px;
   height: 375px;
-  margin-top: -30%;
+  margin-top: -28%;
   margin-left: 56%;
   background: #f2f2f2;
-  padding: 20px 20px;
+  padding: 15px 20px;
+  border-radius: 5px;
 }
 
 .followme {
@@ -493,13 +502,16 @@ textarea {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 22px;
+  font-style: italic;
 }
 
 .followsection ul li {
-  font-family: 'Inter', sans-serif;
-  font-size: 20px;
-  line-height: 75px;
-  list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 85px;
+    list-style: none;
+    margin-top: -1px;
 }
 
 .listimages {
@@ -511,11 +523,17 @@ textarea {
 }
 
 .listimages img {
-  width: 50px;
-  padding-bottom: 20px;
+    width: 60px;
+    padding-bottom: 20px;
+    transition: .4s;
+}
+
+.listimages a:hover {
+  opacity: 0.5;
+  transition: .4s;
 }
 
 .followsection ul {
-  margin-top: -279px;
-  margin-left: 56px;
+    margin-top: -321px;
+    margin-left: 68px;
 }
