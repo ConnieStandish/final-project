@@ -253,11 +253,14 @@ About Page
 }
 
 .profile-pic-caption {
-  clear: both;
-  position: relative;
-  bottom: 338px;
-  left: 1167px;
-  font-size: 15px;
+    clear: both;
+    position: relative;
+    bottom: 338px;
+    left: 1167px;
+    font-size: 15px;
+    margin: -23px 0px;
+    text-align: center;
+    max-width: 242px;
 }
 /*=======================
 Menu Pages
