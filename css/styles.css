@@ -6,6 +6,10 @@ Universal Styling
   padding: 0;
   border: 0;
 }
+
+main {
+  max-height: 600px;
+}
 /*=======================
 Navigation Styling
 ========================*/
@@ -549,4 +553,69 @@ textarea {
 .followsection ul {
   margin-top: -321px;
   margin-left: 68px;
+}
+/*=======================
+Flip Card Animation-
+Example Page
+========================*/
+.flip-card {
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    background: transparent;
+    position: relative;
+    left: 75px;
+    top: -7px;
+    margin: 46px 88px;
+}
+
+.flip-card .flip-image {
+    width: 300px;
+    height: 433px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 300px;
+    height: 433px;
+    text-align: center;
+    transition: transform .6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 1px 4px 0 black;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 300px;
+  height: 353px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+    background: #dedede;
+    color: black;
+    transform: rotateY(180deg);
+    padding-top: 80px;
+}
+
+.flip-card-back h3 {
+    margin-top: 70px;
+}
+
+.flipexample {
+    max-width: 90%;
+    margin-top: 55px;
+}
+
+.flipexample h2 {
+    text-align: center;
+    border-bottom: 2px solid #454545;
+    padding: 15px 0;
+    max-width: 1543px;
 }
