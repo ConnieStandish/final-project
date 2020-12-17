@@ -84,7 +84,7 @@ Footer
 footer {
   font-family: 'Inter', sans-serif;
   margin: 0 auto;
-  padding-top: 295px;
+  padding-top: 300px;
   font-size: 14px;
   color: white;
 }
@@ -320,7 +320,7 @@ Menu Pages
 .menu-image {
   position: absolute;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
   filter: grayscale(100);
   right: 188px;
   bottom: 48px;
@@ -353,7 +353,7 @@ Review Pages
 }
 
 .hallow-cover {
-  margin-top: -153px;
+  margin-top: -129px;
 }
 
 .vampire-cover {
@@ -361,19 +361,19 @@ Review Pages
 }
 
 .water-cover {
-  margin-top: -123px;
+  margin-top: -148px;
 }
 
 .destroyer-cover {
-  margin-top: -120px;
+  margin-top: -149px;
 }
 
 .nimona-cover {
-  margin-top: -125px;
+  margin-top: -153px;
 }
 
 .something-cover {
-  margin-top: -75px;
+  margin-top: -49px;
 }
 
 .upright-cover {
