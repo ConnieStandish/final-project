@@ -559,29 +559,29 @@ Flip Card Animation-
 Example Page
 ========================*/
 .flip-card {
-    width: 280px;
-    height: 280px;
-    display: inline-block;
-    background: transparent;
-    position: relative;
-    left: 75px;
-    top: -7px;
-    margin: 46px 88px;
+  width: 280px;
+  height: 280px;
+  display: inline-block;
+  background: transparent;
+  position: relative;
+  left: 75px;
+  top: -7px;
+  margin: 46px 88px;
 }
 
 .flip-card .flip-image {
-    width: 300px;
-    height: 433px;
+  width: 300px;
+  height: 433px;
 }
 
 .flip-card-inner {
-    position: relative;
-    width: 300px;
-    height: 433px;
-    text-align: center;
-    transition: transform .6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 1px 4px 0 black;
+  position: relative;
+  width: 300px;
+  height: 433px;
+  text-align: center;
+  transition: transform .6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 1px 4px 0 black;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -598,54 +598,54 @@ Example Page
 }
 
 .flip-card-back {
-    background: #dedede;
-    color: black;
-    transform: rotateY(180deg);
-    padding-top: 80px;
+  background: #dedede;
+  color: black;
+  transform: rotateY(180deg);
+  padding-top: 80px;
 }
 
 .flip-card-back h3 {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .flipexample,
 .logoexample {
-    max-width: 90%;
-    margin-top: 55px;
+  max-width: 90%;
+  margin-top: 55px;
 }
 
 .flipexample h2,
 .logoexample h2 {
-    text-align: center;
-    border-bottom: 2px solid #454545;
-    padding: 15px 0;
-    max-width: 1543px;
+  text-align: center;
+  border-bottom: 2px solid #454545;
+  padding: 15px 0;
+  max-width: 1543px;
 }
 /*=======================
 Logo Sample-
 Example Page
 ========================*/
 .logoexample {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .thankyou-message {
-    float: right;
-    text-align: center;
-    position: relative;
-    right: 480px;
-    top: 55px;
-    background: #f2f2f2;
-    height: 115px;
-    padding-top: 50px;
-    border-radius: 4px;
-    box-shadow: 1 1 black;
-    box-shadow: -2px 7px 4px 1px grey;
+  float: right;
+  text-align: center;
+  position: relative;
+  right: 480px;
+  top: 55px;
+  background: #f2f2f2;
+  height: 115px;
+  padding-top: 50px;
+  border-radius: 4px;
+  box-shadow: 1 1 black;
+  box-shadow: -2px 7px 4px 1px grey;
 }
 
 .logoimage {
-    width: 23%;
-    position: relative;
-    top: 42px;
-    left: 428px;
+  width: 23%;
+  position: relative;
+  top: 42px;
+  left: 428px;
 }
