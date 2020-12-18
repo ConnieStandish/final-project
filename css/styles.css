@@ -251,19 +251,19 @@ About Page
 }
 
 .profile-pic {
-    position: absolute;
-    right: 266px;
-    bottom: 280px;
+  position: absolute;
+  right: 266px;
+  bottom: 280px;
 }
 
 .profile-pic-caption {
-    position: relative;
-    bottom: -18px;
-    left: 1224px;
-    font-size: 14px;
-    text-align: center;
-    max-width: 125px;
-    margin-bottom: -27px;
+  position: relative;
+  bottom: -18px;
+  left: 1224px;
+  font-size: 14px;
+  text-align: center;
+  max-width: 125px;
+  margin-bottom: -27px;
 }
 /*=======================
 Menu Pages
@@ -317,14 +317,14 @@ Menu Pages
 }
 
 .menu-image {
-    position: absolute;
-    max-width: 400px;
-    max-height: 560px;
-    filter: grayscale(100);
-    right: 188px;
-    bottom: 90px;
-    border-radius: 15px;
-    box-shadow: 9px -7px 7px 3px #8080808c;
+  position: absolute;
+  max-width: 400px;
+  max-height: 560px;
+  filter: grayscale(100);
+  right: 188px;
+  bottom: 90px;
+  border-radius: 15px;
+  box-shadow: 9px -7px 7px 3px #8080808c;
 }
 /*=======================
 Review Pages
