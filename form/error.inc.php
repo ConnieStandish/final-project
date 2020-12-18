@@ -76,21 +76,22 @@ Social Media Links
 Footer
 ========================*/
 footer {
- font-family: 'Inter', sans-serif;
- margin: 0 auto;
- padding-top: 295px;
- font-size: 14px;
- color: white;
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  padding-top: 295px;
+  font-size: 14px;
+  color: white;
 }
 
 footer p {
- background: #0f1635;
- padding: 19px 0;
- text-align: center;
- position: absolute;
- width: 1918px;
- max-width: 1920px;
- height: 15px;
+  background: #0f1635;
+  padding: 19px 0;
+  text-align: center;
+  position: absolute;
+  max-width: 1920px;
+  height: 15px;
+  left: 0;
+  right: 0;
 }
 
 .container {
@@ -101,7 +102,7 @@ footer p {
 }
 
 .contact {
-  height: 239px;
+  height: 256px;
 }
 
 .thankyou {
@@ -126,24 +127,33 @@ footer p {
 }
 
 strong a {
-    position: absolute;
-    bottom: 68px;
-    text-decoration: none;
-    background: #142056;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-    margin-left: 20px;
+  position: absolute;
+  bottom: 68px;
+  text-decoration: none;
+  background: #142056;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 </style>
 
-<!--- FontAwesome --->
-<script src="https://kit.fontawesome.com/4f19959d2d.js" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RH34RWENCH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<!--- Google Fonts --->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Goldman&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-</head>
+    gtag('config', 'G-RH34RWENCH');
+  </script>
+
+  <!--- FontAwesome --->
+  <script src="https://kit.fontawesome.com/4f19959d2d.js" crossorigin="anonymous"></script>
+
+  <!--- Google Fonts --->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
 <body>
   <header>
